@@ -1,0 +1,26 @@
+[experiment]
+method = "custom_lora"
+seed = 7
+
+[model]
+model_id = "FacebookAI/roberta-base"
+revision = "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+
+[dataset]
+task = "mrpc"
+dataset_id = "nyu-mll/glue"
+revision = "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c"
+max_length = 128
+evaluation_protocol = "heldout_official_validation"
+
+[lora]
+rank = 4
+alpha = 8.0
+dropout = 0.1
+
+[training]
+microbatch = 2
+gradient_accumulation = 4
+epochs = 1
+learning_rate = 0.00002
+precision = "fp32"

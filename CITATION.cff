@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Low-Rank Adaptation Under a 6 GB GPU Budget"
+type: software
+authors:
+  - family-names: Singh
+    given-names: Rahul
+license: MIT
+version: 0.1.0

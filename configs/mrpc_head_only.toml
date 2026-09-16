@@ -1,0 +1,6 @@
+[experiment]
+method = "head_only"
+seed = 1
+
+[dataset]
+task = "mrpc"

@@ -1,0 +1,6 @@
+[experiment]
+method = "full_finetune"
+seed = 1
+
+[dataset]
+task = "mrpc"

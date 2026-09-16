@@ -1,0 +1,11 @@
+[experiment]
+method = "custom_lora"
+seed = 1
+
+[dataset]
+task = "mrpc"
+
+[lora]
+rank = 8
+alpha = 16.0
+dropout = 0.1

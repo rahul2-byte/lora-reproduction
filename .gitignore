@@ -1,0 +1,12 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+runs/
+data/downloads/
+data/cache/
+data/hf-cache/
+/logs/
+/results/*
+!/results/reliable/
