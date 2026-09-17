@@ -11,7 +11,7 @@ REQUIRED_DOCS = (
     "README.md", "docs/paper_notes.md", "docs/architecture.md",
     "docs/reproduction_scope.md", "docs/experimental_methodology.md",
     "docs/results.md", "docs/discrepancies.md", "docs/limitations.md",
-    "docs/interview_notes.md", "docs/claim_ledger.md",
+    "docs/claim_ledger.md",
 )
 
 

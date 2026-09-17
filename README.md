@@ -95,7 +95,7 @@ src/lora_study/
 configs/          smoke, baseline, and reference TOML configurations
 scripts/          report, profile, audit, batch-probe, and smoke commands
 tests/            mathematical, integration, data, checkpoint, and report tests
-docs/             methodology, scope, results, discrepancies, interview notes
+docs/             methodology, scope, results, and discrepancy records
 results/reliable/ committed compact tables and figure
 data/             data policy; downloaded data is ignored
 ```
@@ -212,7 +212,6 @@ This repository’s code is MIT licensed. Upstream model and dataset terms remai
 - [Discrepancies](docs/discrepancies.md)
 - [Claim ledger](docs/claim_ledger.md)
 - [Limitations](docs/limitations.md)
-- [Interview notes](docs/interview_notes.md)
 - [Data policy](data/README.md)
 
 ## Limitations and roadmap
